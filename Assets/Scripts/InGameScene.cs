@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InGameScene : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class InGameScene : MonoBehaviour
 
     public void OnClickTouch()
     {
-
+        SceneManager.LoadScene("LobbyScene");
     }
 
 }

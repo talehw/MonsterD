@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LobbyScene : MonoBehaviour
 {
@@ -19,17 +20,17 @@ public class LobbyScene : MonoBehaviour
 
     public void OnClickCharacter()
     {
-
+        SceneManager.LoadScene("InGameScene");
     }
 
     public void OnClickItem()
     {
-
+        SceneManager.LoadScene("InGameScene");
     }
 
     public void OnClickPlay()
     {
-
+        SceneManager.LoadScene("InGameScene");
     }
 
 }
